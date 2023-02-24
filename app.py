@@ -170,16 +170,16 @@ current_health_status = st.selectbox(
 absenses = st.text_input('number of school absences', )
 
 
-G1 = st.text_input('G1', )
+Grade_1 = st.text_input('Grade_1', )
 
-G2 = st.text_input('G2', )
+Grade_2 = st.text_input('Grade_2', )
 
 # G1 = st.slider(
-#     'G1',
+#     'Grade_1',
 #     0.0, 20.0, (6.9, 20.0))
 
 # G2 = st.slider(
-#     'G2',
+#     'Grade_2',
 #     0.0, 20.0, (6.5, 19.6))
 
 
@@ -202,7 +202,7 @@ if st.button('Submit'):
 
                         Free_Time_after_College  , Going_out_with_friends  , workday_alcohol_consumption  , weekend_alcohol_consumption  , current_health_status  ,
 
-                        absenses  , G1  , G2 ]],
+                        absenses  , Grade_1  , Grade_2 ]],
 
             columns = ['school' ,'sex' ,'age' ,'address' ,'famsize' ,'Pstatus' ,
 
